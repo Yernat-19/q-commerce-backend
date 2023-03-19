@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "name": "Apple"
+    },
+    {
+      "id": 2,
+      "name": "Xiaomi"
+    },
+    {
+      "id": 3,
+      "name": "Samsung"
+    },
+    {
+      "id": 4,
+      "name": "OPPO"
+    },
+    {
+      "id": 5,
+      "name": "Huawei"
+    },
+    {
+      "id": 6,
+      "name": "LG"
+    },
+    {
+      "id": 7,
+      "name": "Sony"
+    },
+    {
+      "id": 8,
+      "name": "Microsoft"
+    },
+    {
+      "id": 9,
+      "name": "Asus"
+    },
+    {
+      "id": 10,
+      "name": "Lenovo"
+    }
+  ]

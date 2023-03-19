@@ -61,14 +61,6 @@ controller.getProductCategories = () => {
 
   return uniqueCategories;
 };
-//get product brands
-controller.getProductBrands = () => {
-  const brands = frozenData.products.map(p => p.brand);
-
-  const uniqueBrands = [...new Set(brands)];
-
-  return uniqueBrands;
-};
 
 // get product by id
 controller.getProductById = ({ id, select }) => {

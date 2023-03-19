@@ -4,6 +4,7 @@ const {
   getProductById,
   searchProducts,
   getProductCategories,
+  getProductBrands,
   getProductsByCategoryName,
   addNewProduct,
   updateProductById,
@@ -23,6 +24,10 @@ router.get('/search', (req, res) => {
 // get product categories
 router.get('/categories', (req, res) => {
   res.send(getProductCategories());
+});
+//get product brands
+router.get('/brands', (req, res) => {
+  res.send(getProductBrands());
 });
 
 // get product by id

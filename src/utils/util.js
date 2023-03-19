@@ -10,12 +10,8 @@ const utils = {};
 
 const data = {
   products: [],
-  carts: [],
   users: [],
-  quotes: [],
-  todos: [],
-  posts: [],
-  comments: [],
+  carts: [],
   httpCodes: {
     codes: Object.keys(httpCodes),
     messages: httpCodes,
@@ -63,48 +59,28 @@ utils.loadDataInMemory = async () => {
   const baseDir = path.join(__dirname, '../', 'data');
 
   const productsPath = path.join(baseDir, 'products.json');
-  const cartsPath = path.join(baseDir, 'carts.json');
   const usersPath = path.join(baseDir, 'users.json');
-  const quotesPath = path.join(baseDir, 'quotes.json');
-  const todosPath = path.join(baseDir, 'todos.json');
-  const postsPath = path.join(baseDir, 'posts.json');
-  const commentsPath = path.join(baseDir, 'comments.json');
+  const cartsPath = path.join(baseDir, 'carts.json');
 
   const paths = [
     fs.readFile(productsPath, 'utf-8'),
-    fs.readFile(cartsPath, 'utf-8'),
     fs.readFile(usersPath, 'utf-8'),
-    fs.readFile(quotesPath, 'utf-8'),
-    fs.readFile(todosPath, 'utf-8'),
-    fs.readFile(postsPath, 'utf-8'),
-    fs.readFile(commentsPath, 'utf-8'),
+    fs.readFile(cartsPath, 'utf-8'),
   ];
 
   const [
     productsStr,
-    cartsStr,
     usersStr,
-    quotesStr,
-    todosStr,
-    postsStr,
-    commentsStr,
+    cartsStr
   ] = await Promise.all(paths);
 
   const productsArr = JSON.parse(productsStr);
-  const cartsArr = JSON.parse(cartsStr);
   const usersArr = JSON.parse(usersStr);
-  const quotesArr = JSON.parse(quotesStr);
-  const todosArr = JSON.parse(todosStr);
-  const postsArr = JSON.parse(postsStr);
-  const commentsArr = JSON.parse(commentsStr);
+  const cartsArr = JSON.parse(cartsStr);
 
   data.products = productsArr;
-  data.carts = cartsArr;
   data.users = usersArr;
-  data.quotes = quotesArr;
-  data.todos = todosArr;
-  data.posts = postsArr;
-  data.comments = commentsArr;
+  data.carts = cartsArr;
 
   utils.deepFreeze(data);
 };
