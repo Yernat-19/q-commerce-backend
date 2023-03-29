@@ -1,4 +1,5 @@
 const { verifyUserHandler } = require('../helpers');
+const utils = require('../utils/util');
 const {
   dataInMemory: frozenData,
   getMultiObjectSubset,
@@ -6,6 +7,7 @@ const {
   getNestedValue,
   limitArray,
 } = require('../utils/util');
+const { addNewCart } = require('./cart');
 
 const controller = {};
 
@@ -174,7 +176,9 @@ controller.addNewUser = ({ ...data }) => {
     ssn,
     userAgent,
   };
-
+  frozenData.users.push(newUser);
+  utils.updateData('users', frozenData.users)
+  addNewCart({userId: newUser.id, products: []})
   return newUser;
 };
 

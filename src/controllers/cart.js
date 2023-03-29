@@ -1,10 +1,12 @@
 const { verifyUserHandler } = require('../helpers');
 const APIError = require('../utils/error');
+const utils = require('../utils/util');
 const {
   dataInMemory: frozenData,
   trueTypeOf,
   isNumber,
   limitArray,
+  updateData,
 } = require('../utils/util');
 
 const controller = {};
@@ -29,16 +31,16 @@ controller.getAllCarts = ({ limit, skip }) => {
 controller.getCartsByUserId = ({ userId, limit, skip }) => {
   verifyUserHandler(userId);
 
-  let [...carts] = frozenData.carts.filter(c => c.userId.toString() === userId);
-  const total = carts.length;
+  let cart = frozenData.carts.find(c => c.userId.toString() === userId);
+  const total = 1;
 
-  if (skip > 0) {
-    carts = carts.slice(skip);
-  }
+  // if (skip > 0) {
+  //   carts = carts.slice(skip);
+  // }
 
-  carts = limitArray(carts, limit);
+  // carts = limitArray(carts, limit);
 
-  const result = { carts, total, skip, limit: carts.length };
+  const result = { cart, total, skip, limit: cart.length };
 
   return result;
 };
@@ -65,9 +67,9 @@ controller.addNewCart = ({ userId, products = [] }) => {
     );
   }
 
-  if (!products.length) {
-    throw new APIError(`products can not be empty`, 400);
-  }
+  // if (!products.length) {
+  //   throw new APIError(`products can not be empty`, 400);
+  // }
 
   const productIds = [];
   const productQty = [];
@@ -128,7 +130,8 @@ controller.addNewCart = ({ userId, products = [] }) => {
     totalProducts: someProducts.length,
     totalQuantity,
   };
-
+  frozenData.carts.push(cart)
+  utils.updateData('carts', frozenData.carts)
   return cart;
 };
 
@@ -143,9 +146,9 @@ controller.updateCartById = ({ id: cartId, ...data }) => {
     throw new APIError(`Cart with id '${cartId}' not found`, 404);
   }
 
-  if (userId) {
-    verifyUserHandler(userId);
-  }
+  // if (userId) {
+  //   verifyUserHandler(userId);
+  // }
 
   if (trueTypeOf(userProducts) !== 'array') {
     throw new APIError(
@@ -199,6 +202,7 @@ controller.updateCartById = ({ id: cartId, ...data }) => {
       id: +p.id,
       title: p.title,
       price: p.price,
+      thumbnail: p.thumbnail,
       quantity,
       total: priceWithQty,
       discountPercentage: p.discountPercentage,
@@ -216,8 +220,10 @@ controller.updateCartById = ({ id: cartId, ...data }) => {
     totalProducts: allProducts.length,
     totalQuantity,
   };
-
-  return cart;
+  frozenData.carts = frozenData.carts.filter(c => c.id.toString() !== cartId)
+  frozenData.carts.push(cart)
+  updateData('carts', frozenData.carts)
+  return frozenData.carts;
 };
 
 // delete cart by id

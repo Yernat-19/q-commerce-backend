@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { loginByUsernamePassword } = require('../controllers/auth');
+const { loginByUsernamePassword, registerByUsernamePassword } = require('../controllers/auth');
 const APIError = require('../utils/error');
 const { isNumber } = require('../utils/util');
 

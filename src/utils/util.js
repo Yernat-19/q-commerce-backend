@@ -54,7 +54,34 @@ utils.getRandomInt = (min = 0, max = 100) => {
   const _max = Math.floor(max);
   return Math.floor(Math.random() * (_max - _min + 1)) + _min;
 };
+utils.updateData = async (filename, data) => {
+  const baseDir = path.join(__dirname, '../', 'data');
 
+  const productsPath = path.join(baseDir, 'products.json');
+  const usersPath = path.join(baseDir, 'users.json');
+  const cartsPath = path.join(baseDir, 'carts.json');
+  let filepath
+  switch (filename) {
+    case 'products':
+      // file = await fs.readFile(productsPath, 'utf-8')
+      filepath = productsPath
+      break;
+    case 'carts':
+      // file = await fs.readFile(cartsPath, 'utf-8')
+      filepath = cartsPath
+      break
+    case 'users':
+      // file = await fs.readFile(usersPath, 'utf-8')
+      filepath = usersPath
+      break;
+    default:
+      break;
+  }
+  fs.writeFile(filepath,JSON.stringify(data), function(err) {
+    if (err) throw err;
+    console.log('New object added to file!');
+  })
+}
 utils.loadDataInMemory = async () => {
   const baseDir = path.join(__dirname, '../', 'data');
 
@@ -67,7 +94,6 @@ utils.loadDataInMemory = async () => {
     fs.readFile(usersPath, 'utf-8'),
     fs.readFile(cartsPath, 'utf-8'),
   ];
-
   const [
     productsStr,
     usersStr,
@@ -82,7 +108,7 @@ utils.loadDataInMemory = async () => {
   data.users = usersArr;
   data.carts = cartsArr;
 
-  utils.deepFreeze(data);
+  // utils.deepFreeze(data);
 };
 
 utils.getObjectSubset = function(obj, keys) {
