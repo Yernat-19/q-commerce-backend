@@ -12,6 +12,7 @@ const data = {
   products: [],
   users: [],
   carts: [],
+  orders: [],
   httpCodes: {
     codes: Object.keys(httpCodes),
     messages: httpCodes,
@@ -60,6 +61,7 @@ utils.updateData = async (filename, data) => {
   const productsPath = path.join(baseDir, 'products.json');
   const usersPath = path.join(baseDir, 'users.json');
   const cartsPath = path.join(baseDir, 'carts.json');
+  const ordersPath = path.join(baseDir, 'orders.json');
   let filepath
   switch (filename) {
     case 'products':
@@ -73,6 +75,10 @@ utils.updateData = async (filename, data) => {
     case 'users':
       // file = await fs.readFile(usersPath, 'utf-8')
       filepath = usersPath
+      break;
+    case 'orders':
+      // file = await fs.readFile(usersPath, 'utf-8')
+      filepath = ordersPath
       break;
     default:
       break;
@@ -88,25 +94,30 @@ utils.loadDataInMemory = async () => {
   const productsPath = path.join(baseDir, 'products.json');
   const usersPath = path.join(baseDir, 'users.json');
   const cartsPath = path.join(baseDir, 'carts.json');
+  const ordersPath = path.join(baseDir, 'orders.json');
 
   const paths = [
     fs.readFile(productsPath, 'utf-8'),
     fs.readFile(usersPath, 'utf-8'),
     fs.readFile(cartsPath, 'utf-8'),
+    fs.readFile(ordersPath, 'utf-8'),
   ];
   const [
     productsStr,
     usersStr,
-    cartsStr
+    cartsStr,
+    ordersStr
   ] = await Promise.all(paths);
 
   const productsArr = JSON.parse(productsStr);
   const usersArr = JSON.parse(usersStr);
   const cartsArr = JSON.parse(cartsStr);
+  const ordersArr = JSON.parse(ordersStr);
 
   data.products = productsArr;
   data.users = usersArr;
   data.carts = cartsArr;
+  data.orders = ordersArr;
 
   // utils.deepFreeze(data);
 };
@@ -216,5 +227,13 @@ utils.getNestedValue = (obj, keys) => {
 utils.limitArray = (arr, limit) => {
   return limit === 0 || limit > arr.length ? arr : arr.slice(0, limit);
 };
+utils.addDays = function (date, days) {
+  date.setDate(date.getDate() + days);
+  return date;
+}
+utils.getRandomInt = function(max) {
+  return Math.floor(Math.random() * max);
+}
+
 
 module.exports = utils;

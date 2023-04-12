@@ -11,6 +11,7 @@ const userRoutes = require('./user');
 const httpStatusRoutes = require('./http');
 const testRoutes = require('./test');
 const cartRoutes = require('./cart');
+const orderRoutes = require('./order');
 
 // dynamic resource routes
 // no-dynamic-routes
@@ -18,6 +19,7 @@ const cartRoutes = require('./cart');
 router.use('/', forceHTTPS, staticRoutes);
 router.use('/auth', authRoutes);
 router.use(['/cart','/carts'], cartRoutes);
+router.use(['/order','/orders'], orderRoutes);
 router.use(['/product', '/products'], productRoutes);
 router.use(['/user', '/users'], userRoutes);
 router.use(['/http', '/https'], httpStatusRoutes);
