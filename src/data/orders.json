@@ -1,16 +1,1 @@
-[
-    {
-        "id": 1,
-        "createdAt": "",
-        "deliveryDate": "",
-        "products":[],
-        "total": 1000
-    },
-    {
-        "id": 2,
-        "createdAt": "",
-        "deliveryDate": "",
-        "products":[],
-        "total": 1000
-    }
-]
+[{"id":3,"products":[{"id":1,"title":"iPhone 9","price":549,"quantity":1,"total":549,"discountPercentage":12.96,"discountedPrice":478},{"id":2,"title":"iPhone X","price":899,"quantity":1,"total":899,"discountPercentage":17.94,"discountedPrice":738}],"total":1448,"userId":1,"totalProducts":2,"totalQuantity":2,"createdAt":"2023-04-15T17:12:22.214Z","deliveryDate":"2023-04-15T17:12:22.214Z"}]

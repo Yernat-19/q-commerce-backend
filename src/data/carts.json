@@ -1,1 +1,1 @@
-[{"id":1,"products":[{"id":2,"title":"iPhone X","price":899,"thumbnail":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","quantity":3,"total":2697,"discountPercentage":17.94,"discountedPrice":2213},{"id":6,"title":"MacBook Pro","price":1749,"thumbnail":"https://i.dummyjson.com/data/products/6/thumbnail.png","quantity":1,"total":1749,"discountPercentage":11.02,"discountedPrice":1556}],"total":4446,"discountedTotal":3769,"userId":1,"totalProducts":2,"totalQuantity":4}]
+[{"id":1,"products":[],"total":0,"discountedTotal":0,"userId":1,"totalProducts":0,"totalQuantity":0}]

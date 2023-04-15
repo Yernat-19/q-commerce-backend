@@ -121,7 +121,7 @@ controller.addNewOrder = ({ userId, products = [] }) => {
   });
   const createdAt = new Date()
   const deliveryDate = utils.addDays(createdAt, utils.getRandomInt(10))
-  // prepare cart
+  // prepare order
   const order = {
     id: frozenData.orders.length + 1,
     products: someProducts,
@@ -132,7 +132,7 @@ controller.addNewOrder = ({ userId, products = [] }) => {
     createdAt,
     deliveryDate
   };
-  frozenData.orders.push(cart)
+  frozenData.orders.push(order)
   utils.updateData('orders', frozenData.orders)
   return order;
 };

@@ -66,6 +66,7 @@ controller.registerByUsernamePassword = async data => {
     image: user.image,
     country: user.country,
     city: user.city,
+    createdAt: new Date()
   };
 
   try {
