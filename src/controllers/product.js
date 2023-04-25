@@ -1,4 +1,5 @@
 const APIError = require('../utils/error');
+const utils = require('../utils/util');
 const {
   dataInMemory: frozenData,
   getMultiObjectSubset,
@@ -123,6 +124,7 @@ controller.addNewProduct = ({ ...data }) => {
     description,
     brand,
     category,
+    balance
   } = data;
 
   const newProduct = {
@@ -136,7 +138,10 @@ controller.addNewProduct = ({ ...data }) => {
     description,
     brand,
     category,
+    balance
   };
+  frozenData.products.push(newProduct);
+  utils.updateData('products', frozenData.products)
 
   return newProduct;
 };
@@ -153,14 +158,15 @@ controller.updateProductById = ({ id, ...data }) => {
     description,
     brand,
     category,
+    balance
   } = data;
 
-  const productFrozen = frozenData.products.find(p => p.id.toString() === id);
+  const productFrozen = frozenData.products.find(p => p.id === id);
 
   if (!productFrozen) {
     throw new APIError(`Product with id '${id}' not found`, 404);
   }
-
+  
   const updatedProduct = {
     id: +id, // converting id to number
     title: title || productFrozen.title,
@@ -172,8 +178,19 @@ controller.updateProductById = ({ id, ...data }) => {
     description: description || productFrozen.description,
     brand: brand || productFrozen.brand,
     category: category || productFrozen.category,
+    balance: balance || productFrozen.balance
   };
-
+  if (balance === 0) {
+    updatedProduct.balance = balance
+  } else {
+    updatedProduct.balance = balance || productFrozen.balance
+  }
+  
+  for(const key of Object.keys(productFrozen)) {
+    productFrozen[key] = updatedProduct[key]
+  }
+  // frozenData.products.forEach(p => p.id === productFrozen[id])
+  utils.updateData('products', frozenData.products)
   return updatedProduct;
 };
 
