@@ -196,18 +196,9 @@ controller.updateProductById = ({ id, ...data }) => {
 
 // delete product by id
 controller.deleteProductById = ({ id }) => {
-  const productFrozen = frozenData.products.find(p => p.id.toString() === id);
-
-  if (!productFrozen) {
-    throw new APIError(`Product with id '${id}' not found`, 404);
-  }
-
-  const { ...product } = productFrozen;
-
-  product.isDeleted = true;
-  product.deletedOn = new Date().toISOString();
-
-  return product;
+  const data = frozenData.products.filter(p => p.id.toString() !== id);
+  utils.updateData('products', data)
+  return id;
 };
 
 module.exports = controller;

@@ -228,8 +228,10 @@ utils.limitArray = (arr, limit) => {
   return limit === 0 || limit > arr.length ? arr : arr.slice(0, limit);
 };
 utils.addDays = function (date, days) {
-  date.setDate(date.getDate() + days);
-  return date;
+  const newDate = new Date(date)
+  // date.setHours(date.getHours() + 6);
+  newDate.setDate(date.getDate() + days);
+  return newDate;
 }
 utils.getRandomInt = function(max) {
   return Math.floor(Math.random() * max);

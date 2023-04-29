@@ -145,6 +145,7 @@ controller.addNewUser = ({ ...data }) => {
     ein = '',
     ssn = '',
     userAgent = '',
+    role = 'user'
   } = data;
 
   const newUser = {
@@ -175,6 +176,7 @@ controller.addNewUser = ({ ...data }) => {
     ein,
     ssn,
     userAgent,
+    role
   };
   frozenData.users.push(newUser);
   utils.updateData('users', frozenData.users)

@@ -29,6 +29,7 @@ controller.loginByUsernamePassword = async data => {
     image: user.image,
     country: user.country,
     city: user.city,
+    role: user.role
   };
 
   try {

@@ -31,7 +31,7 @@ controller.getAllOrders = ({ limit, skip }) => {
 controller.getOrdersByUserId = ({ userId, limit, skip }) => {
   verifyUserHandler(userId);
 
-  let orders = frozenData.orders.find(o => o.userId.toString() === userId);
+  let orders = frozenData.orders.filter(o => o.userId.toString() === userId);
   const total = 1;
 
   // if (skip > 0) {
@@ -42,7 +42,7 @@ controller.getOrdersByUserId = ({ userId, limit, skip }) => {
 
   const result = { orders, total, skip, limit: orders.length };
 
-  return result;
+  return orders;
 };
 
 // get cart by id
@@ -117,6 +117,7 @@ controller.addNewOrder = ({ userId, products = [] }) => {
       total: priceWithQty,
       discountPercentage: p.discountPercentage,
       discountedPrice,
+      thumbnail: p.thumbnail
     };
   });
   const createdAt = new Date()
@@ -129,8 +130,8 @@ controller.addNewOrder = ({ userId, products = [] }) => {
     userId: +userId, // converting userId to number
     totalProducts: someProducts.length,
     totalQuantity,
-    createdAt,
-    deliveryDate
+    createdAt: createdAt,
+    deliveryDate: deliveryDate
   };
   frozenData.orders.push(order)
   utils.updateData('orders', frozenData.orders)
