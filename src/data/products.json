@@ -1,1 +1,587 @@
-[{"id":2,"title":"iPhone X12","description":"SIM-Free, Model A19212 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...","price":899,"rating":4.44,"stock":34,"brand":"Apple","category":"smartphones","thumbnail":"https://i.dummyjson.com/data/products/2/thumbnail.jpg","images":["https://i.dummyjson.com/data/products/2/1.jpg","https://i.dummyjson.com/data/products/2/2.jpg","https://i.dummyjson.com/data/products/2/3.jpg","https://i.dummyjson.com/data/products/2/thumbnail.jpg"],"balance":198},{"id":3,"title":"Samsung Universe 9","description":"Samsung's new variant which goes beyond Galaxy to the Universe","price":1249,"rating":4.09,"stock":36,"brand":"Samsung","category":"smartphones","thumbnail":"https://i.dummyjson.com/data/products/3/thumbnail.jpg","images":["https://i.dummyjson.com/data/products/3/1.jpg"],"balance":97},{"id":5,"title":"Huawei P30","description":"Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.","price":499,"rating":4.09,"stock":32,"brand":"Huawei","category":"smartphones","thumbnail":"https://i.dummyjson.com/data/products/5/thumbnail.jpg","images":["https://i.dummyjson.com/data/products/5/1.jpg","https://i.dummyjson.com/data/products/5/2.jpg","https://i.dummyjson.com/data/products/5/3.jpg"],"balance":97},{"id":6,"title":"MacBook Pro","description":"MacBook Pro 2021 with mini-LED display may launch between September, November","price":1749,"discountPercentage":11.02,"rating":4.57,"stock":83,"brand":"Apple","category":"laptops","thumbnail":"https://i.dummyjson.com/data/products/6/thumbnail.png","images":["https://i.dummyjson.com/data/products/6/1.png","https://i.dummyjson.com/data/products/6/2.jpg","https://i.dummyjson.com/data/products/6/3.png","https://i.dummyjson.com/data/products/6/4.jpg"],"balance":100},{"id":7,"title":"Samsung Galaxy Book","description":"Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched","price":1499,"rating":4.25,"stock":50,"brand":"Samsung","category":"laptops","thumbnail":"https://i.dummyjson.com/data/products/7/thumbnail.jpg","images":["https://i.dummyjson.com/data/products/7/1.jpg","https://i.dummyjson.com/data/products/7/2.jpg","https://i.dummyjson.com/data/products/7/3.jpg","https://i.dummyjson.com/data/products/7/thumbnail.jpg"],"balance":99},{"id":8,"title":"Microsoft Surface Laptop 4","description":"Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.","price":1499,"rating":4.43,"stock":68,"brand":"Microsoft Surface","category":"laptops","thumbnail":"https://i.dummyjson.com/data/products/8/thumbnail.jpg","images":["https://i.dummyjson.com/data/products/8/1.jpg","https://i.dummyjson.com/data/products/8/2.jpg","https://i.dummyjson.com/data/products/8/3.jpg","https://i.dummyjson.com/data/products/8/4.jpg","https://i.dummyjson.com/data/products/8/thumbnail.jpg"],"balance":98},{"id":9,"title":"Infinix INBOOK","description":"Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty","price":1099,"discountPercentage":11.83,"rating":4.54,"stock":96,"brand":"Infinix","category":"laptops","thumbnail":"https://i.dummyjson.com/data/products/9/thumbnail.jpg","images":["https://i.dummyjson.com/data/products/9/1.jpg","https://i.dummyjson.com/data/products/9/2.png","https://i.dummyjson.com/data/products/9/3.png","https://i.dummyjson.com/data/products/9/4.jpg","https://i.dummyjson.com/data/products/9/thumbnail.jpg"],"balance":100},{"id":10,"title":"HP Pavilion 15-DK1056WM","description":"HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10","price":1099,"rating":4.43,"stock":89,"brand":"HP Pavilion","category":"laptops","thumbnail":"https://i.dummyjson.com/data/products/10/thumbnail.jpeg","images":["https://i.dummyjson.com/data/products/10/1.jpg","https://i.dummyjson.com/data/products/10/2.jpg","https://i.dummyjson.com/data/products/10/3.jpg","https://i.dummyjson.com/data/products/10/thumbnail.jpeg"],"balance":99},{"id":26,"title":"Plant Hanger For Home","description":"Boho Decor Plant Hanger For Home Wall Decoration Macrame Wall Hanging Shelf","price":41,"rating":4.08,"stock":131,"brand":"Boho Decor","category":"home-decoration","thumbnail":"https://i.dummyjson.com/data/products/26/thumbnail.jpg","images":["https://i.dummyjson.com/data/products/26/1.jpg","https://i.dummyjson.com/data/products/26/2.jpg","https://i.dummyjson.com/data/products/26/3.jpg","https://i.dummyjson.com/data/products/26/4.jpg","https://i.dummyjson.com/data/products/26/5.jpg","https://i.dummyjson.com/data/products/26/thumbnail.jpg"],"balance":99},{"id":27,"title":"Flying Wooden Bird","description":"Package Include 6 Birds with Adhesive Tape Shape: 3D Shaped Wooden Birds Material: Wooden MDF, Laminated 3.5mm","price":51,"rating":4.41,"stock":17,"brand":"Flying Wooden","category":"home-decoration","thumbnail":"https://i.dummyjson.com/data/products/27/thumbnail.webp","images":["https://i.dummyjson.com/data/products/27/1.jpg","https://i.dummyjson.com/data/products/27/2.jpg","https://i.dummyjson.com/data/products/27/3.jpg","https://i.dummyjson.com/data/products/27/4.jpg","https://i.dummyjson.com/data/products/27/thumbnail.webp"],"balance":99},{"id":28,"title":"3D Embellishment Art Lamp","description":"3D led lamp sticker Wall sticker 3d wall art light on/off button  cell operated (included)","price":20,"discountPercentage":16.49,"rating":4.82,"stock":54,"brand":"LED Lights","category":"home-decoration","thumbnail":"https://i.dummyjson.com/data/products/28/thumbnail.jpg","images":["https://i.dummyjson.com/data/products/28/1.jpg","https://i.dummyjson.com/data/products/28/2.jpg","https://i.dummyjson.com/data/products/28/3.png","https://i.dummyjson.com/data/products/28/4.jpg","https://i.dummyjson.com/data/products/28/thumbnail.jpg"],"balance":100},{"id":29,"title":"Handcraft Chinese style","description":"Handcraft Chinese style art luxury palace hotel villa mansion home decor ceramic vase with brass fruit plate","price":60,"discountPercentage":15.34,"rating":4.44,"stock":7,"brand":"luxury palace","category":"home-decoration","thumbnail":"https://i.dummyjson.com/data/products/29/thumbnail.webp","images":["https://i.dummyjson.com/data/products/29/1.jpg","https://i.dummyjson.com/data/products/29/2.jpg","https://i.dummyjson.com/data/products/29/3.webp","https://i.dummyjson.com/data/products/29/4.webp","https://i.dummyjson.com/data/products/29/thumbnail.webp"],"balance":100},{"id":30,"title":"Key Holder","description":"Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality","price":30,"discountPercentage":2.92,"rating":4.92,"stock":54,"brand":"Golden","category":"home-decoration","thumbnail":"https://i.dummyjson.com/data/products/30/thumbnail.jpg","images":["https://i.dummyjson.com/data/products/30/1.jpg","https://i.dummyjson.com/data/products/30/2.jpg","https://i.dummyjson.com/data/products/30/3.jpg","https://i.dummyjson.com/data/products/30/thumbnail.jpg"],"balance":100},{"id":61,"title":"Leather Straps Wristwatch","description":"Style:Sport ,Clasp:Buckles ,Water Resistance Depth:3Bar","price":120,"discountPercentage":7.14,"rating":4.63,"stock":91,"brand":"Naviforce","category":"mens-watches","thumbnail":"https://i.dummyjson.com/data/products/61/thumbnail.jpg","images":["https://i.dummyjson.com/data/products/61/1.jpg","https://i.dummyjson.com/data/products/61/2.png","https://i.dummyjson.com/data/products/61/3.jpg"],"balance":100},{"id":63,"title":"Royal Blue Premium Watch","description":"Men Silver Chain Royal Blue Premium Watch Latest Analog Watch","price":50,"discountPercentage":2.56,"rating":4.89,"stock":142,"brand":"SKMEI 9117","category":"mens-watches","thumbnail":"https://i.dummyjson.com/data/products/63/thumbnail.webp","images":["https://i.dummyjson.com/data/products/63/1.jpg","https://i.dummyjson.com/data/products/63/2.jpg","https://i.dummyjson.com/data/products/63/3.png","https://i.dummyjson.com/data/products/63/4.jpeg"],"balance":100},{"id":64,"title":"Leather Strap Skeleton Watch","description":"Leather Strap Skeleton Watch for Men - Stylish and Latest Design","price":46,"discountPercentage":10.2,"rating":4.98,"stock":61,"brand":"Strap Skeleton","category":"mens-watches","thumbnail":"https://i.dummyjson.com/data/products/64/thumbnail.jpg","images":["https://i.dummyjson.com/data/products/64/1.jpg","https://i.dummyjson.com/data/products/64/2.webp","https://i.dummyjson.com/data/products/64/3.jpg","https://i.dummyjson.com/data/products/64/thumbnail.jpg"],"balance":100},{"id":65,"title":"Stainless Steel Wrist Watch","description":"Stylish Watch For Man (Luxury) Classy Men's Stainless Steel Wrist Watch - Box Packed","price":47,"discountPercentage":17.79,"rating":4.79,"stock":94,"brand":"Stainless","category":"mens-watches","thumbnail":"https://i.dummyjson.com/data/products/65/thumbnail.webp","images":["https://i.dummyjson.com/data/products/65/1.jpg","https://i.dummyjson.com/data/products/65/2.webp","https://i.dummyjson.com/data/products/65/3.jpg","https://i.dummyjson.com/data/products/65/4.webp","https://i.dummyjson.com/data/products/65/thumbnail.webp"],"balance":100},{"id":66,"title":"Steel Analog Couple Watches","description":"Elegant design, Stylish ,Unique & Trendy,Comfortable wear","price":35,"discountPercentage":3.23,"rating":4.79,"stock":24,"brand":"Eastern Watches","category":"womens-watches","thumbnail":"https://i.dummyjson.com/data/products/66/thumbnail.jpg","images":["https://i.dummyjson.com/data/products/66/1.jpg","https://i.dummyjson.com/data/products/66/2.jpg","https://i.dummyjson.com/data/products/66/3.jpg","https://i.dummyjson.com/data/products/66/4.JPG","https://i.dummyjson.com/data/products/66/thumbnail.jpg"],"balance":100},{"id":67,"title":"Fashion Magnetic Wrist Watch","description":"Buy this awesome  The product is originally manufactured by the company and it's a top selling product with a very reasonable","price":60,"discountPercentage":16.69,"rating":4.03,"stock":46,"brand":"Eastern Watches","category":"womens-watches","thumbnail":"https://i.dummyjson.com/data/products/67/thumbnail.jpg","images":["https://i.dummyjson.com/data/products/67/1.jpg","https://i.dummyjson.com/data/products/67/2.jpg","https://i.dummyjson.com/data/products/67/3.jpg","https://i.dummyjson.com/data/products/67/4.jpg","https://i.dummyjson.com/data/products/67/thumbnail.jpg"],"balance":100},{"id":68,"title":"Stylish Luxury Digital Watch","description":"Stylish Luxury Digital Watch For Girls / Women - Led Smart Ladies Watches For Girls","price":57,"discountPercentage":9.03,"rating":4.55,"stock":77,"brand":"Luxury Digital","category":"womens-watches","thumbnail":"https://i.dummyjson.com/data/products/68/thumbnail.webp","images":["https://i.dummyjson.com/data/products/68/1.jpg","https://i.dummyjson.com/data/products/68/2.jpg"],"balance":100},{"id":69,"title":"Golden Watch Pearls Bracelet Watch","description":"Product details of Golden Watch Pearls Bracelet Watch For Girls - Golden Chain Ladies Bracelate Watch for Women","price":47,"discountPercentage":17.55,"rating":4.77,"stock":89,"brand":"Watch Pearls","category":"womens-watches","thumbnail":"https://i.dummyjson.com/data/products/69/thumbnail.jpg","images":["https://i.dummyjson.com/data/products/69/1.jpg","https://i.dummyjson.com/data/products/69/2.jpg","https://i.dummyjson.com/data/products/69/3.webp","https://i.dummyjson.com/data/products/69/4.jpg","https://i.dummyjson.com/data/products/69/thumbnail.jpg"],"balance":100},{"id":70,"title":"Stainless Steel Women","description":"Fashion Skmei 1830 Shell Dial Stainless Steel Women Wrist Watch Lady Bracelet Watch Quartz Watches Ladies","price":35,"discountPercentage":8.98,"rating":4.08,"stock":111,"brand":"Bracelet","category":"womens-watches","thumbnail":"https://i.dummyjson.com/data/products/70/thumbnail.jpg","images":["https://i.dummyjson.com/data/products/70/1.jpg","https://i.dummyjson.com/data/products/70/2.jpg","https://i.dummyjson.com/data/products/70/thumbnail.jpg"],"balance":100},{"id":96,"title":"lighting ceiling kitchen","description":"Wholesale slim hanging decorative kid room lighting ceiling kitchen chandeliers pendant light modern","price":30,"discountPercentage":14.89,"rating":4.83,"stock":96,"brand":"lightingbrilliance","category":"lighting","thumbnail":"https://i.dummyjson.com/data/products/96/thumbnail.jpg","images":["https://i.dummyjson.com/data/products/96/1.jpg","https://i.dummyjson.com/data/products/96/2.jpg","https://i.dummyjson.com/data/products/96/3.jpg","https://i.dummyjson.com/data/products/96/4.jpg","https://i.dummyjson.com/data/products/96/thumbnail.jpg"],"balance":100},{"id":97,"title":"Metal Ceramic Flower","description":"Metal Ceramic Flower Chandelier Home Lighting American Vintage Hanging Lighting Pendant Lamp","price":35,"discountPercentage":10.94,"rating":4.93,"stock":146,"brand":"Ifei Home","category":"lighting","thumbnail":"https://i.dummyjson.com/data/products/97/thumbnail.jpg","images":["https://i.dummyjson.com/data/products/97/1.jpg","https://i.dummyjson.com/data/products/97/2.jpg","https://i.dummyjson.com/data/products/97/3.jpg","https://i.dummyjson.com/data/products/97/4.webp","https://i.dummyjson.com/data/products/97/thumbnail.jpg"],"balance":100},{"id":98,"title":"3 lights lndenpant kitchen islang","description":"3 lights lndenpant kitchen islang dining room pendant rice paper chandelier contemporary led pendant light modern chandelier","price":34,"discountPercentage":5.92,"rating":4.99,"stock":44,"brand":"DADAWU","category":"lighting","thumbnail":"https://i.dummyjson.com/data/products/98/thumbnail.jpg","images":["https://i.dummyjson.com/data/products/98/1.jpg","https://i.dummyjson.com/data/products/98/2.jpg","https://i.dummyjson.com/data/products/98/3.jpg","https://i.dummyjson.com/data/products/98/4.jpg","https://i.dummyjson.com/data/products/98/thumbnail.jpg"],"balance":100},{"id":99,"title":"American Vintage Wood Pendant Light","description":"American Vintage Wood Pendant Light Farmhouse Antique Hanging Lamp Lampara Colgante","price":46,"discountPercentage":8.84,"rating":4.32,"stock":138,"brand":"Ifei Home","category":"lighting","thumbnail":"https://i.dummyjson.com/data/products/99/thumbnail.jpg","images":["https://i.dummyjson.com/data/products/99/1.jpg","https://i.dummyjson.com/data/products/99/2.jpg","https://i.dummyjson.com/data/products/99/3.jpg","https://i.dummyjson.com/data/products/99/4.jpg","https://i.dummyjson.com/data/products/99/thumbnail.jpg"],"balance":100},{"id":100,"title":"Crystal chandelier maria theresa for 12 light","description":"Crystal chandelier maria theresa for 12 light","price":47,"discountPercentage":16,"rating":4.74,"stock":133,"brand":"YIOSI","category":"lighting","thumbnail":"https://i.dummyjson.com/data/products/100/thumbnail.jpg","images":["https://i.dummyjson.com/data/products/100/1.jpg","https://i.dummyjson.com/data/products/100/2.jpg","https://i.dummyjson.com/data/products/100/3.jpg","https://i.dummyjson.com/data/products/100/thumbnail.jpg"],"balance":100},{"id":28,"title":"TEST","price":"999","description":"TEST","brand":"TEST","category":"TEST"}]
+[
+  {
+    "id": 2,
+    "title": "iPhone X12",
+    "description": "Без SIM-карты, модель A19212 6,5-дюймовый дисплей Super Retina HD с технологией OLED Чип A12 Bionic с ...",
+    "price": 449500,
+    "rating": 4.44,
+    "stock": 34,
+    "brand": "Apple",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/2/1.jpg",
+      "https://i.dummyjson.com/data/products/2/2.jpg",
+      "https://i.dummyjson.com/data/products/2/3.jpg",
+      "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+    ],
+    "balance": 198
+  },
+  {
+    "id": 3,
+    "title": "Samsung Universe 9",
+    "description": "Новый вариант Samsung, выходящий за пределы Galaxy во Вселенную",
+    "price": 624500,
+    "rating": 4.09,
+    "stock": 36,
+    "brand": "Samsung",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/3/1.jpg"
+    ],
+    "balance": 97
+  },
+  {
+    "id": 5,
+    "title": "Huawei P30",
+    "description": "Huawei P30 Pro New Edition с новым брендом был официально представлен вчера в Германии, а теперь устройство попало в Великобританию.",
+    "price": 249500,
+    "rating": 4.09,
+    "stock": 32,
+    "brand": "Huawei",
+    "category": "smartphones",
+    "thumbnail": "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/5/1.jpg",
+      "https://i.dummyjson.com/data/products/5/2.jpg",
+      "https://i.dummyjson.com/data/products/5/3.jpg"
+    ],
+    "balance": 97
+  },
+  {
+    "id": 6,
+    "title": "MacBook Pro",
+    "description": "MacBook Pro 2023 с мини-светодиодным дисплеем может выйти в сентябре-ноябре",
+    "price": 874500,
+    "discountPercentage": 11.02,
+    "rating": 4.57,
+    "stock": 83,
+    "brand": "Apple",
+    "category": "laptops",
+    "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
+    "images": [
+      "https://i.dummyjson.com/data/products/6/1.png",
+      "https://i.dummyjson.com/data/products/6/2.jpg",
+      "https://i.dummyjson.com/data/products/6/3.png",
+      "https://i.dummyjson.com/data/products/6/4.jpg"
+    ],
+    "balance": 100
+  },
+  {
+    "id": 7,
+    "title": "Samsung Galaxy Book",
+    "description": "Выпущен ноутбук Samsung Galaxy Book S (2020) с чипом Intel Lakefield, 8 ГБ оперативной памяти",
+    "price": 749500,
+    "rating": 4.25,
+    "stock": 50,
+    "brand": "Samsung",
+    "category": "laptops",
+    "thumbnail": "https://i.dummyjson.com/data/products/7/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/7/1.jpg",
+      "https://i.dummyjson.com/data/products/7/2.jpg",
+      "https://i.dummyjson.com/data/products/7/3.jpg",
+      "https://i.dummyjson.com/data/products/7/thumbnail.jpg"
+    ],
+    "balance": 99
+  },
+  {
+    "id": 8,
+    "title": "Microsoft Surface Laptop 4",
+    "description": "Стиль и скорость. Выделяйтесь во время видеозвонков в формате HD с помощью студийных микрофонов. Фиксируйте идеи на ярком сенсорном экране.",
+    "price": 749500,
+    "rating": 4.43,
+    "stock": 68,
+    "brand": "Microsoft",
+    "category": "laptops",
+    "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/8/1.jpg",
+      "https://i.dummyjson.com/data/products/8/2.jpg",
+      "https://i.dummyjson.com/data/products/8/3.jpg",
+      "https://i.dummyjson.com/data/products/8/4.jpg",
+      "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
+    ],
+    "balance": 98
+  },
+  {
+    "id": 9,
+    "title": "Infinix INBOOK",
+    "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey — гарантия 1 год",
+    "price": 549500,
+    "discountPercentage": 11.83,
+    "rating": 4.54,
+    "stock": 96,
+    "brand": "Infinix",
+    "category": "laptops",
+    "thumbnail": "https://i.dummyjson.com/data/products/9/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/9/1.jpg",
+      "https://i.dummyjson.com/data/products/9/2.png",
+      "https://i.dummyjson.com/data/products/9/3.png",
+      "https://i.dummyjson.com/data/products/9/4.jpg",
+      "https://i.dummyjson.com/data/products/9/thumbnail.jpg"
+    ],
+    "balance": 100
+  },
+  {
+    "id": 10,
+    "title": "HP Pavilion 15-DK1056WM",
+    "description": "Игровой ноутбук HP Pavilion 15-DK1056WM, процессор Core i5 10-го поколения, 8 ГБ, 256 ГБ SSD, GTX 1650 4 ГБ, Windows 10",
+    "price": 549500,
+    "rating": 4.43,
+    "stock": 89,
+    "brand": "HP Pavilion",
+    "category": "laptops",
+    "thumbnail": "https://i.dummyjson.com/data/products/10/thumbnail.jpeg",
+    "images": [
+      "https://i.dummyjson.com/data/products/10/1.jpg",
+      "https://i.dummyjson.com/data/products/10/2.jpg",
+      "https://i.dummyjson.com/data/products/10/3.jpg",
+      "https://i.dummyjson.com/data/products/10/thumbnail.jpeg"
+    ],
+    "balance": 99
+  },
+  {
+    "id": 61,
+    "title": "Leather Straps Wristwatch",
+    "description": "Стиль: Спорт, Застежка: Пряжки, Глубина водонепроницаемости: 3 бар",
+    "price": 60000,
+    "discountPercentage": 7.14,
+    "rating": 4.63,
+    "stock": 91,
+    "brand": "Naviforce",
+    "category": "mens-watches",
+    "thumbnail": "https://i.dummyjson.com/data/products/61/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/61/1.jpg",
+      "https://i.dummyjson.com/data/products/61/2.png",
+      "https://i.dummyjson.com/data/products/61/3.jpg"
+    ],
+    "balance": 100
+  },
+  {
+    "id": 63,
+    "title": "Royal Blue Premium Watch",
+    "description": "Мужские часы с серебряной цепочкой Royal Blue Premium Последние аналоговые часы",
+    "price": 25000,
+    "discountPercentage": 2.56,
+    "rating": 4.89,
+    "stock": 142,
+    "brand": "SKMEI 9117",
+    "category": "mens-watches",
+    "thumbnail": "https://i.dummyjson.com/data/products/63/thumbnail.webp",
+    "images": [
+      "https://i.dummyjson.com/data/products/63/1.jpg",
+      "https://i.dummyjson.com/data/products/63/2.jpg",
+      "https://i.dummyjson.com/data/products/63/3.png",
+      "https://i.dummyjson.com/data/products/63/4.jpeg"
+    ],
+    "balance": 100
+  },
+  {
+    "id": 64,
+    "title": "Leather Strap Skeleton Watch",
+    "description": "Часы Skeleton с кожаным ремешком для мужчин — стильный и новейший дизайн",
+    "price": 23000,
+    "discountPercentage": 10.2,
+    "rating": 4.98,
+    "stock": 61,
+    "brand": "Strap Skeleton",
+    "category": "mens-watches",
+    "thumbnail": "https://i.dummyjson.com/data/products/64/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/64/1.jpg",
+      "https://i.dummyjson.com/data/products/64/2.webp",
+      "https://i.dummyjson.com/data/products/64/3.jpg",
+      "https://i.dummyjson.com/data/products/64/thumbnail.jpg"
+    ],
+    "balance": 100
+  },
+  {
+    "id": 65,
+    "title": "Stainless Steel Wrist Watch",
+    "description": "Стильные мужские часы (роскошь) Стильные мужские наручные часы из нержавеющей стали - упакованы в коробку",
+    "price": 23500,
+    "discountPercentage": 17.79,
+    "rating": 4.79,
+    "stock": 94,
+    "brand": "Stainless",
+    "category": "mens-watches",
+    "thumbnail": "https://i.dummyjson.com/data/products/65/thumbnail.webp",
+    "images": [
+      "https://i.dummyjson.com/data/products/65/1.jpg",
+      "https://i.dummyjson.com/data/products/65/2.webp",
+      "https://i.dummyjson.com/data/products/65/3.jpg",
+      "https://i.dummyjson.com/data/products/65/4.webp",
+      "https://i.dummyjson.com/data/products/65/thumbnail.webp"
+    ],
+    "balance": 100
+  },
+  {
+    "id": 66,
+    "title": "Steel Analog Couple Watches",
+    "description": "Элегантный дизайн, стильный, уникальный и модный, удобная одежда",
+    "price": 17500,
+    "discountPercentage": 3.23,
+    "rating": 4.79,
+    "stock": 24,
+    "brand": "Eastern Watches",
+    "category": "womens-watches",
+    "thumbnail": "https://i.dummyjson.com/data/products/66/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/66/1.jpg",
+      "https://i.dummyjson.com/data/products/66/2.jpg",
+      "https://i.dummyjson.com/data/products/66/3.jpg",
+      "https://i.dummyjson.com/data/products/66/4.JPG",
+      "https://i.dummyjson.com/data/products/66/thumbnail.jpg"
+    ],
+    "balance": 100
+  },
+  {
+    "id": 67,
+    "title": "Fashion Magnetic Wrist Watch",
+    "description": "Купите этот потрясающий продукт. Продукт изначально производится компанией, и это самый продаваемый продукт с очень разумной ценой.",
+    "price": 30000,
+    "discountPercentage": 16.69,
+    "rating": 4.03,
+    "stock": 46,
+    "brand": "Eastern Watches",
+    "category": "womens-watches",
+    "thumbnail": "https://i.dummyjson.com/data/products/67/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/67/1.jpg",
+      "https://i.dummyjson.com/data/products/67/2.jpg",
+      "https://i.dummyjson.com/data/products/67/3.jpg",
+      "https://i.dummyjson.com/data/products/67/4.jpg",
+      "https://i.dummyjson.com/data/products/67/thumbnail.jpg"
+    ],
+    "balance": 100
+  },
+  {
+    "id": 68,
+    "title": "Stylish Luxury Digital Watch",
+    "description": "Стильные роскошные цифровые часы для девушек/женщин - умные женские часы привели для девушек",
+    "price": 28500,
+    "discountPercentage": 9.03,
+    "rating": 4.55,
+    "stock": 77,
+    "brand": "Luxury Digital",
+    "category": "womens-watches",
+    "thumbnail": "https://i.dummyjson.com/data/products/68/thumbnail.webp",
+    "images": [
+      "https://i.dummyjson.com/data/products/68/1.jpg",
+      "https://i.dummyjson.com/data/products/68/2.jpg"
+    ],
+    "balance": 100
+  },
+  {
+    "id": 69,
+    "title": "Golden Watch Pearls Bracelet Watch",
+    "description": "Подробнее о Golden Watch Pearls Bracelet Watch For Girls - Golden Chain Ladies Bracelet Watch for Women",
+    "price": 23500,
+    "discountPercentage": 17.55,
+    "rating": 4.77,
+    "stock": 89,
+    "brand": "Watch Pearls",
+    "category": "womens-watches",
+    "thumbnail": "https://i.dummyjson.com/data/products/69/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/69/1.jpg",
+      "https://i.dummyjson.com/data/products/69/2.jpg",
+      "https://i.dummyjson.com/data/products/69/3.webp",
+      "https://i.dummyjson.com/data/products/69/4.jpg",
+      "https://i.dummyjson.com/data/products/69/thumbnail.jpg"
+    ],
+    "balance": 100
+  },
+  {
+    "id": 70,
+    "title": "Stainless Steel Women",
+    "description": "Модные женские наручные часы Skmei 1830 с циферблатом из нержавеющей стали, женские часы-браслет, кварцевые часы, женские часы",
+    "price": 17500,
+    "discountPercentage": 8.98,
+    "rating": 4.08,
+    "stock": 111,
+    "brand": "Bracelet",
+    "category": "womens-watches",
+    "thumbnail": "https://i.dummyjson.com/data/products/70/thumbnail.jpg",
+    "images": [
+      "https://i.dummyjson.com/data/products/70/1.jpg",
+      "https://i.dummyjson.com/data/products/70/2.jpg",
+      "https://i.dummyjson.com/data/products/70/thumbnail.jpg"
+    ],
+    "balance": 100
+  },
+  {
+"id": 71,
+"title": "Samsung Galaxy S21 Ultra",
+"description": "Смартфон без SIM-карты, 6,8-дюймовый дисплей Dynamic AMOLED 2X, чипсет Exynos 2100 (5 нм), камера 108 МП + 10 МП + 10 МП + 12 МП, батарея 5000 мАч, поддержка 5G",
+"price": 99900,
+"rating": 4.8,
+"stock": 25,
+"brand": "Samsung",
+"category": "smartphones",
+"thumbnail": "https://onepoint.kz/uploads/products/878/samsung-galaxy-s21-8128gb-phantom-violet.jpeg",
+"images": [
+"https://i.dummyjson.com/data/products/3/1.jpg",
+"https://i.dummyjson.com/data/products/3/2.jpg",
+"https://i.dummyjson.com/data/products/3/3.jpg",
+"https://i.dummyjson.com/data/products/3/thumbnail.jpg"
+],
+"balance": 150
+},
+{
+"id": 72,
+"title": "Sony PlayStation 5",
+"description": "Игровая приставка, Ultra HD Blu-ray, 4K-разрешение, 825 ГБ SSD, HDR, 3D-звук, технология Ray Tracing, белый цвет",
+"price": 49990,
+"rating": 4.75,
+"stock": 10,
+"brand": "Sony",
+"category": "gaming",
+"thumbnail": "https://smartselect.kz/wp-content/uploads/2021/03/unnamed.jpg",
+"images": [
+"https://i.dummyjson.com/data/products/4/1.jpg",
+"https://i.dummyjson.com/data/products/4/2.jpg",
+"https://i.dummyjson.com/data/products/4/3.jpg",
+"https://i.dummyjson.com/data/products/4/thumbnail.jpg"
+],
+"balance": 100
+},
+{
+"id": 73,
+"title": "Apple MacBook Pro 2021",
+"description": "Ноутбук без SIM-карты, процессор Apple M1, 8-ядерный графический процессор, 13,3-дюймовый дисплей Retina, 8 ГБ RAM, 256 ГБ/512 ГБ SSD, Touch Bar, Touch ID, WiFi 6, Bluetooth 5.0",
+"price": 119900,
+"rating": 4.9,
+"stock": 15,
+"brand": "Apple",
+"category": "laptops",
+"thumbnail": "https://www.apple.com/newsroom/images/product/mac/standard/Apple_MacBook-Pro_14-16-inch_10182021_big.jpg.slideshow-xlarge_2x.jpg",
+"images": [
+"https://i.dummyjson.com/data/products/5/1.jpg",
+"https://i.dummyjson.com/data/products/5/2.jpg",
+"https://i.dummyjson.com/data/products/5/3.jpg",
+"https://i.dummyjson.com/data/products/5/thumbnail.jpg"
+],
+"balance": 80
+},
+{
+"id": 74,
+"title": "Amazon Echo Dot (4th Generation)",
+"description": "Умная мини-колонка со встроенным голосовым помощником Alexa, умеет проигрывать музыку, отвечать на вопросы, контролировать умный дом, синхронизироваться с другими устройствами Alexa, цвет Anthracite",
+"price": 4990,
+"rating": 4.5,
+"stock": 50,
+"brand": "Amazon",
+"category": "smart home",
+"thumbnail": "https://images.satu.kz/124884233_w640_h640_besprovodnoj-golosovoj-pomoschnik.jpg",
+"images": [
+"https://i.dummyjson.com/data/products/6/1.jpg",
+"https://i.dummyjson.com/data/products/6/2.jpg",
+"https://i.dummyjson.com/data/products/6/3.jpg",
+"https://i.dummyjson.com/data/products/6/thumbnail.jpg"
+],
+"balance": 200
+},
+{
+"id": 75,
+"title": "Samsung Galaxy Tab S7+",
+"description": "Планшет без SIM-карты, 12,4-дюймовый дисплей Super AMOLED, чипсет Snapdragon 865+, 6 ГБ/8 ГБ RAM, 128 ГБ/256 ГБ/512 ГБ памяти, аккумулятор 10090 мАч, поддержка S Pen, цвет Mystic Black",
+"price": 79900,
+"rating": 4.7,
+"stock": 20,
+"brand": "Samsung",
+"category": "tablets",
+"thumbnail": "https://images.samsung.com/is/image/samsung/assets/ru/tablets/galaxy-tab-s7/Galaxy-Tab-S7_Single_Navy_OOH_V_1.jpg",
+"images": [
+"https://i.dummyjson.com/data/products/7/1.jpg",
+"https://i.dummyjson.com/data/products/7/2.jpg",
+"https://i.dummyjson.com/data/products/7/3.jpg",
+"https://i.dummyjson.com/data/products/7/thumbnail.jpg"
+],
+"balance": 120
+},
+{
+"id": 76,
+"title": "Canon EOS R5",
+"description": "Фотоаппарат без объектива, матрица 45 МП, видоискатель OLED, съемка видео 8K, двухслотовый картридер, WiFi, Bluetooth, встроенный GPS",
+"price": 339900,
+"rating": 4.8,
+"stock": 5,
+"brand": "Canon",
+"category": "cameras",
+"thumbnail": "https://videoset.kz/wp-content/uploads/2020/03/2709529604532b8ef6e730ca5e46be19-600x600.jpg",
+"images": [
+"https://i.dummyjson.com/data/products/8/1.jpg",
+"https://i.dummyjson.com/data/products/8/2.jpg",
+"https://i.dummyjson.com/data/products/8/3.jpg",
+"https://i.dummyjson.com/data/products/8/thumbnail.jpg"
+],
+"balance": 30
+},
+{
+"id": 77,
+"title": "Bose QuietComfort 35 II",
+"description": "Беспроводные наушники с активной системой шумоподавления, поддержка Bluetooth, до 20 часов работы от аккумулятора, управление через приложение Bose Connect, цвет Silver",
+"price": 25990,
+"rating": 4.6,
+"stock": 100,
+"brand": "Bose",
+"category": "headphones",
+"thumbnail": "https://m.media-amazon.com/images/I/81+jNVOUsJL.jpg",
+"images": [
+"https://i.dummyjson.com/data/products/9/1.jpg",
+"https://i.dummyjson.com/data/products/9/2.jpg",
+"https://i.dummyjson.com/data/products/9/3.jpg",
+"https://i.dummyjson.com/data/products/9/thumbnail.jpg"
+],
+"balance": 300
+},
+{
+"id": 78,
+"title": "Dell XPS 13 9310",
+"description": "Ноутбук с экраном 13,4 дюйма, Intel Core i7-1185G7, 16 ГБ оперативной памяти, 512 ГБ SSD, поддержка Wi-Fi 6, Thunderbolt 4, цвет Platinum Silver",
+"price": 129990,
+"rating": 4.9,
+"stock": 10,
+"brand": "Dell",
+"category": "laptops",
+"thumbnail": "https://images.satu.kz/161282132_w640_h640_noutbuk-dell-xps.jpg",
+"images": [
+"https://i.dummyjson.com/data/products/10/1.jpg",
+"https://i.dummyjson.com/data/products/10/2.jpg",
+"https://i.dummyjson.com/data/products/10/3.jpg",
+"https://i.dummyjson.com/data/products/10/thumbnail.jpg"
+],
+"balance": 30
+},
+{
+"id": 79,
+"title": "X-Box series X",
+"description": "Игровая консоль с 4K-совместимостью, SSD на 825 ГБ, 16 ГБ GDDR6-памяти, поддержка технологии Ray Tracing, контроллер DualSense, цвет White",
+"price": 440990,
+"rating": 4.7,
+"stock": 25,
+"brand": "Microsoft",
+"category": "gaming",
+"thumbnail": "https://media.wired.com/photos/5fa5dc3dba670daaf8e97a8d/3:2/w_2205,h_1470,c_limit/games_gear_series-x.jpg",
+"images": [
+"https://i.dummyjson.com/data/products/11/1.jpg",
+"https://i.dummyjson.com/data/products/11/2.jpg",
+"https://i.dummyjson.com/data/products/11/3.jpg",
+"https://i.dummyjson.com/data/products/11/thumbnail.jpg"
+],
+"balance": 80
+},
+{
+"id": 80,
+"title": "LG OLED55C1",
+"description": "Телевизор с диагональю 55 дюймов, технология OLED, разрешение 4K, HDR, поддержка Dolby Atmos, WebOS 6.0, цвет Black",
+"price": 119990,
+"rating": 4.8,
+"stock": 15,
+"brand":"LG",
+"category": "tv",
+"thumbnail": "https://www.lg.com/ae/images/tvs/md07523258/D-02.jpg",
+"images": [
+"https://i.dummyjson.com/data/products/12/1.jpg",
+"https://i.dummyjson.com/data/products/12/2.jpg",
+"https://i.dummyjson.com/data/products/12/3.jpg",
+"https://i.dummyjson.com/data/products/12/thumbnail.jpg"
+],
+"balance": 20
+},
+{
+"id": 81,
+"title": "Samsung Galaxy Tab S10+",
+"description": "Планшет с 12,4-дюймовым Super AMOLED-экраном, чипсетом Snapdragon 865+, 6/8 ГБ оперативной памяти, 128/256 ГБ встроенной памяти, поддержка 5G, стилус S Pen в комплекте, цвет Mystic Black",
+"price": 72990,
+"rating": 4.6,
+"stock": 5,
+"brand": "Samsung",
+"category": "tablets",
+"thumbnail": "https://specificationsplus.com/wp-content/uploads/2022/08/Samsung-Galaxy-Tab-S10-Plus-Specifications-Plus.jpg",
+"images": [
+"https://i.dummyjson.com/data/products/13/1.jpg",
+"https://i.dummyjson.com/data/products/13/2.jpg",
+"https://i.dummyjson.com/data/products/13/3.jpg",
+"https://i.dummyjson.com/data/products/13/thumbnail.jpg"
+],
+"balance": 10
+},
+{
+"id": 82,
+"title": "Logitech MX Master 3",
+"description": "Беспроводная мышь с датчиком Darkfield, USB-C, до 70 дней работы от одного заряда, поддержка многопоточного курсора, цвет Black",
+"price": 8490,
+"rating": 4.8,
+"stock": 50,
+"brand": "Logitech",
+"category": "mouse",
+"thumbnail": "https://www.mechta.kz/export/1cbitrix/import_files/2f/2f0bbdbd-7ad8-11ed-a250-005056b6dbd7.png",
+"images": [
+"https://i.dummyjson.com/data/products/14/1.jpg",
+"https://i.dummyjson.com/data/products/14/2.jpg",
+"https://i.dummyjson.com/data/products/14/3.jpg",
+"https://i.dummyjson.com/data/products/14/thumbnail.jpg"
+],
+"balance": 100
+},
+{
+"id": 83,
+"title": "Apple Watch Series 7",
+"description": "Умные часы с диагональю экрана 41 мм, водонепроницаемость до 50 метров, новые функции здоровья, поддержка 5 ГГц Wi-Fi и Ultra Wideband, цвет Silver",
+"price": 137990,
+"rating": 4.5,
+"stock": 20,
+"brand": "Apple",
+"category": "smartwatches",
+"thumbnail": "https://nemo.kz/upload/iblock/5ac/kw11f3oybnjqmqdv5ew875xdtu6ti809.jpg",
+"images": [
+"https://i.dummyjsondata/products/15/1.jpg",
+"https://i.dummyjson.com/data/products/15/2.jpg",
+"https://i.dummyjson.com/data/products/15/3.jpg",
+"https://i.dummyjson.com/data/products/15/thumbnail.jpg"
+],
+"balance": 15
+},
+{
+"id": 84,
+"title": "Hyper X",
+"description": "Беспроводные наушники с активной шумоподавляющей системой, поддержка Google Assistant и Amazon Alexa, время работы до 20 часов, цвет Black",
+"price": 29990,
+"rating": 4.7,
+"stock": 10,
+"brand": "Bose",
+"category": "headphones",
+"thumbnail": "https://www.technodom.kz/_next/image?url=https%3A%2F%2Fapi.technodom.kz%2Ff3%2Fapi%2Fv1%2Fimages%2F800%2F800%2F216621_1.jpg&w=3840&q=85",
+"images": [
+"https://i.dummyjson.com/data/products/16/1.jpg",
+"https://i.dummyjson.com/data/products/16/2.jpg",
+"https://i.dummyjson.com/data/products/16/3.jpg",
+"https://i.dummyjson.com/data/products/16/thumbnail.jpg"
+],
+"balance": 8
+},
+{
+"id": 85,
+"title": "Microsoft Surface Pro 8",
+"description": "Планшет-ноутбук с диагональю экрана 13 дюймов, чипсетом Intel Core i5/i7, 8/16 ГБ оперативной памяти, 128/256/512 ГБ/1 ТБ встроенной памяти, поддержка 5G, цвет Black",
+"price": 79990,
+"rating": 4.3,
+"stock": 3,
+"brand": "Microsoft",
+"category": "laptops",
+"thumbnail": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Surface-Pro-8-HL-Powerful:VP1-539x400",
+"images": [
+"https://i.dummyjson.com/data/products/17/1.jpg",
+"https://i.dummyjson.com/data/products/17/2.jpg",
+"https://i.dummyjson.com/data/products/17/3.jpg",
+"https://i.dummyjson.com/data/products/17/thumbnail.jpg"
+],
+"balance": 5
+}
+]
