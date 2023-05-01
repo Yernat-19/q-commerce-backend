@@ -57,7 +57,7 @@ controller.getOrderById = ({ id }) => {
 };
 
 // add new cart
-controller.addNewOrder = ({ userId,userEmail, products = [] }) => {
+controller.addNewOrder = ({ userId,userEmail,userAddress, products = [] }) => {
   verifyUserHandler(userId);
 
   if (trueTypeOf(products) !== 'array') {
@@ -129,6 +129,7 @@ controller.addNewOrder = ({ userId,userEmail, products = [] }) => {
     total,
     userId: +userId, // converting userId to number
     userEmail,
+    userAddress,
     totalProducts: someProducts.length,
     totalQuantity,
     createdAt: createdAt,
